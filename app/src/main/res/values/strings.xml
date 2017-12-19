@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Frame</string>
+    <string name="laucher_button_demo">demo</string>
+    <string name="laucher_button_home">home</string>
+</resources>
