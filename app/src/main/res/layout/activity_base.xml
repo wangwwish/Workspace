@@ -19,5 +19,11 @@
         android:onClick="enterTabLayout"
         android:layout_height="wrap_content" />
 
+    <Button
+        android:layout_width="match_parent"
+        android:text="@string/laucher_button_home"
+        android:onClick="enterViewLayout"
+        android:layout_height="wrap_content" />
+
 
 </LinearLayout>

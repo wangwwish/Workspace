@@ -8,6 +8,7 @@ import android.view.View;
 import android.widget.Toast;
 
 import com.alibaba.android.arouter.launcher.ARouter;
+import com.example.viewlibrary.ViewActivity;
 
 /**
  * Created by wwish on 2017/12/12.
@@ -29,5 +30,9 @@ public class LauchActivity extends AppCompatActivity {
 
     public void enterTabLayout(View view) {
         startActivity(new Intent(this, TabLayoutActivity.class));
+    }
+
+    public void enterViewLayout(View view) {
+        startActivity(new Intent(this, ViewActivity.class));
     }
 }
